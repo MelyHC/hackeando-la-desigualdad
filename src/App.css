@@ -1,3 +1,44 @@
+.img {
+  background-image: url(https://cdn.kinsights.com/cache/87/9f/879fa2be63f52cf389964567deadd102.jpg?fbclid=IwAR367-VYlI5aB1QDSEvpmO7QBp1cZsANsHzz4p9tdphFfW4F-3Qg3vv3_Xc);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron.m-width {
+  max-width: 800px;
+}
+
+textarea {
+  resize:none;
+}
+
+a.card {
+  color: inherit;
+}
+
+a.card:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.jumbotron.bg-dark {
+  background-repeat: no-repeat;
+  background-image: url(https://ayudaenaccion.org/ong/wp-content/uploads/2017/06/educacion-en-valores-peliculas.jpg);
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+/* .card-h {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 400px;  */
+/* } */
+
+/* .bg-pink {
+  background-color: pink;
+} */
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -11,4 +52,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (min-width: 768px) {
+  .navbar-md {
+    height: 70px;
+  }
+  
 }

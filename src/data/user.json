@@ -1,0 +1,32 @@
+[
+  {
+    "quest": "¿Con qué género te identificas?",
+    "alt": [
+      {
+        "1": "Femenino",
+        "2": "Masculino",
+        "3": "Ninguno"
+      }
+    ]
+  },
+  {
+    "quest": "¿Con qué género te identificas?",
+    "alt": [
+      {
+        "1": "Femenino",
+        "2": "Masculino",
+        "3": "Ninguno"
+      }
+    ]
+  },
+  {
+    "quest": "¿Con qué género te identificas?",
+    "alt": [
+      {
+        "1": "Femenino",
+        "2": "Masculino",
+        "3": "Ninguno"
+      }
+    ]
+  }
+]
