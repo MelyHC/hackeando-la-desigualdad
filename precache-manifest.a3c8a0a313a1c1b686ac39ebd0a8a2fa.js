@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "64a339b7836030fdbe40",
+    "revision": "1f8f843456198573cdfa",
     "url": "/hackeando-la-desigualdad/static/css/main.83021543.chunk.css"
   },
   {
-    "revision": "64a339b7836030fdbe40",
-    "url": "/hackeando-la-desigualdad/static/js/main.b5b222eb.chunk.js"
+    "revision": "1f8f843456198573cdfa",
+    "url": "/hackeando-la-desigualdad/static/js/main.5c25c463.chunk.js"
   },
   {
     "revision": "9d83b0ce9730b208dd63",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/hackeando-la-desigualdad/static/js/2.8f1980f3.chunk.js"
   },
   {
-    "revision": "e46da2bd81bb6cf819ac0d0faf7ec91b",
+    "revision": "0e4dfabdef89d25c58b6c8123153479d",
     "url": "/hackeando-la-desigualdad/index.html"
   }
 ];
