@@ -27,6 +27,13 @@ a.card:hover {
   background-size: cover;
   background-blend-mode: soft-light;
 }
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
 
 /* .card-h {
   white-space: nowrap;
@@ -58,5 +65,7 @@ a.card:hover {
   .navbar-md {
     height: 70px;
   }
-  
+  .flex-wrapper>* {
+    width: 30%;
+  }
 }

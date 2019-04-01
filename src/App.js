@@ -51,12 +51,14 @@ class App extends Component {
 
     db.collection('activities').get().then(snap => {
       snap.forEach((doc) => {
+        doc.data().id = doc.id
         activities.push(doc.data());
         this.setState({
           activities
         })
       });
     });
+
   }
 
   render() {
@@ -66,7 +68,7 @@ class App extends Component {
       <Router basename={'/hackeando-la-desigualdad'}>
         <Switch>
           <Route
-            path='/home'
+            path='/'
             exact
             render={() => <Home activities={activities} selectCategory={this.selectCategory} />}
           />

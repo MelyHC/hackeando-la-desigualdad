@@ -25,11 +25,11 @@ const Home = ({ activities, selectCategory }) => {
         </div>
       </div>
       <div className='container' id='resources'>
-        <div className='row'>
+        <div className='flex-wrapper'>
           {activities.length ?
-            activities.map((activity, i) => <div key={i} className='col-md-6 col-lg-4'>
-              <Card activity={activity} selectCategory={selectCategory} />
-            </div>)
+            activities.map((activity, i) => 
+              <Card key={i} activity={activity} selectCategory={selectCategory} />
+            )
             : <span>Cargando recursos ...</span>}
         </div>
       </div>

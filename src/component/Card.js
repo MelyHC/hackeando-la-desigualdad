@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 const ListItem = ({ activity: { title, summary, img, age, time}, selectCategory  }) => {
   console.log(selectCategory)
   return (
-    <Link to={`/${title}`} className='card shadow mb-4' onClick={() => selectCategory(title)}>
+    <Link to={`/${title}`} className='card shadow mb-4'  onClick={() => selectCategory(title)}>
       <img src={img} className='card-img-top' alt={title} />
       <div className='card-body'>
         <h5 className='card-title'>{title}</h5>
